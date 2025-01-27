@@ -78,6 +78,11 @@ header {
     max-width: 100%;
 }
 
+.header-container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
 /* nav bar related styles */
 .navbar {
     display: flex;
@@ -146,9 +151,7 @@ header {
     
 }
 
-.img-grid img {
-    /* width: 95%; */
-}
+
 
 .features-grid-texts {
     margin-left: 4%;
