@@ -168,7 +168,7 @@ header {
 
 .features{
     display: flex;
-    gap:5%;
+    gap:12%;
     margin-top: 10%;
 }
 .vl {
@@ -199,7 +199,7 @@ header {
     max-width: 586px;
     border-radius: 8px;
     padding: 2% 2%;
-    margin-bottom: 1.5%;
+    margin-bottom: 3%;
     
   }
 
@@ -236,6 +236,80 @@ header {
     font-size: 4.06rem;
 
   }
+
+
+  /* facts section */
+  .facts .section-description{
+    max-width: 542px;
+    
+  }
+
+  .fact-cards-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 9%;
+    
+    
+  }
+
+  .fact-cards {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    text-align: center;
+    padding-top: 5%;
+  } 
+
+  .fact-cards .num {
+    font-weight: 600;
+    font-size: 2.81rem;
+    margin-top: 2%;
+    margin-bottom: 0;
+  }
+
+  .fact-cards .fact-name {
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: #727272;
+    margin-top: 2%;
+  }
+
+
+  /* Sponsors Section */
+  .sponsors {
+    text-align: center;
+    margin-top: 10%;
+  }
+
+  .sponsors .section-description {
+    max-width: 542px;
+    margin: 0 auto;
+    margin-top: -2%;
+    margin-bottom: 5%;
+  }
+
+   .sponsor-logo-container {
+    display: flex;
+    justify-content: space-between;
+    filter: grayscale(100%);
+   }
+
+
+   /* footer */
+
+   footer {
+    max-width: 1440px;
+    height: 90px;
+    background-color: #FFF4E7;
+    border-radius: 8px;
+    margin: 10% auto;
+    font-weight: normal;
+    font-size: 1.25rem;
+    text-align: center;
+    padding-top: 2%;
+   }
+
 
 
 /* Responsive */
@@ -284,8 +358,48 @@ header {
         width: 95%;
     }
 
+    /* features section */
+    .features {
+        flex-direction: column;
+    }
+
     
-    
+    .vl {
+        
+        height:10vh;
+        margin-top: 3vh;  
+      }
+
+      .features-image-and-btn-container img{
+       width: 100%;
+      }  
+
+      .features-image-and-btn-container .btn-primary {
+        margin: 0 auto;
+        margin-top: 20px;
+        
+        
+      }
+
+      .fact-cards-container {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 2%;
+        
+          
+      }
+
+
+      .sponsor-logo-container img{
+        width: 15%;
+      }
+        
+      .fact-cards {
+        width: 150px;
+        height: 150px;
+        
+      } 
+
 }
 
 
