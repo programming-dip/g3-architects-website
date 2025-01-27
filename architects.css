@@ -13,6 +13,7 @@
 body {
     width: 100vw;
     margin: 0;
+    font-size: 16px;
 
 }
 
@@ -162,6 +163,81 @@ header {
    font-weight: 500;
 }
 
+
+/* features styles */
+
+.features{
+    display: flex;
+    gap:5%;
+    margin-top: 10%;
+}
+.vl {
+    border-left: 4px solid #FF900E;
+    height:11vh;
+    margin-top: 5vh;
+    margin-right: 3%;
+  }
+
+  .features .headings {
+    display: flex;
+    max-width: 468px;
+    justify-content: space-between;
+  }
+
+  .features .section-description {
+    max-width: 586px;
+    margin-top: 0;
+    margin-bottom: 2%;
+  }
+
+  .features .cards {
+   
+    
+    color: #727272;
+    background-color: white;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    max-width: 586px;
+    border-radius: 8px;
+    padding: 2% 2%;
+    margin-bottom: 1.5%;
+    
+  }
+
+  .features .cards h1 {
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: #131313;
+  }
+
+  .features .cards p {
+    font-weight: normal;
+    font-size: 1rem;
+  }
+
+  .features-image-and-btn-container img{
+    height: 80%;
+    display: block;
+  }
+
+  .features-image-and-btn-container .btn-primary {
+    
+    width: 320px;
+    height: 200px;
+    color: white;
+    font-weight: 500;
+    font-size: 1.56rem;
+    padding: 2% 2%;
+    margin-left: -6%;
+    margin-top: -17%;
+  }
+
+  #badge-year {
+    font-weight: bold;
+    font-size: 4.06rem;
+
+  }
+
+
 /* Responsive */
 @media screen and (max-width: 576px){
 
@@ -207,6 +283,7 @@ header {
     .img-grid img {
         width: 95%;
     }
+
     
     
 }
